@@ -19,11 +19,6 @@ const MarketplaceHomeDetails = () => {
         }
     }, [allProduct, id]);
 
-    const convertToWholeNumber = (formattedNumber) => {
-        const number = parseFloat(formattedNumber);
-        return Math.floor(number);
-        };
-
     const truncateAddress = (address) => {
     if (!address) return '';
     const start = address.slice(0, 20);
@@ -48,7 +43,7 @@ const MarketplaceHomeDetails = () => {
             </div>
             <div className='text-[#0F160F] lg:w-[52%] md:w-[52%] w-[100%]'>
             <h3 className='font-bold mt-4 lg:mt-0 md:mt-0 lg:text-[24px] md:text-[24px] text-[20px] capitalise font-titiliumweb'>{transaction.name}</h3>
-            <p className='font-titiliumweb mb-4 font-bold text-[#015C28] lg:text-[24px] md:text-[24px] text-[20px]'>{convertToWholeNumber(formatUnits(transaction.price))} ETH (per unit of measure) </p>
+            <p className='font-titiliumweb mb-4 font-bold text-[#015C28] lg:text-[24px] md:text-[24px] text-[20px]'>{formatUnits(transaction.price)} Pol (per unit of measure) </p>
             <p className='flex justify-between my-4'>Quantity available: <span>{Number(transaction.weight)}</span></p>
             <p className='flex justify-between my-4'>Seller's location: <span>{transaction.location}</span></p>
             <p className='flex justify-between my-4'>Seller's wallet address: <span>{truncateAddress(transaction.address)}</span></p>

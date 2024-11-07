@@ -16,11 +16,6 @@ const CreateSellerProfile = () => {
     return `${start}...`;
   };
 
-  const convertToWholeNumber = (formattedNumber) => {
-    const number = parseFloat(formattedNumber);
-    return Math.floor(number);
-  };
-
   return (
    <main>
      <div className='flex flex-col lg:flex-row md:flex-row bg-[#427142] rounded-[20px] w-[100%] text-white'>
@@ -46,7 +41,7 @@ const CreateSellerProfile = () => {
         <p className='flex justify-between my-4'>Location <span>{info.location}</span></p>
         <p className='flex justify-between my-4'>Products <span>{info.product}</span></p>
         <p className='flex justify-between my-4'>Seller's wallet address: <span>{truncateAddress(info.address)}</span></p>
-        <p className='flex justify-between my-4 font-bold'>Payment Total: <span>{convertToWholeNumber(formatUnits(info.payment))}ETH</span> </p>
+        <p className='flex justify-between my-4 font-bold'>Payment Total: <span>{formatUnits(info.payment)}Pol</span> </p>
        {info.address === address && ( <EditProfile id={Number(info.id)} />)}
         </div>
         )

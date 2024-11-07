@@ -44,11 +44,6 @@ const Transactions = () => {
     fetchEvents();
   }, [buyerAddress]);
 
-  const convertToWholeNumber = (formattedNumber) => {
-    const number = parseFloat(formattedNumber);
-    return number.toFixed();
-  };
-
   return (
     <main>
        <section className='flex flex-col lg:flex-row md:flex-row bg-[#427142] rounded-[20px] w-[100%] text-white'>
@@ -95,7 +90,7 @@ const Transactions = () => {
                 <div>
                   <img src={userPurchase.image} alt="" className="w-[300px] h-[300px] mb-4" />
                   <p><strong>Product Name:</strong> {userPurchase.name}</p>
-                  <p className='flex justify-between my-4 font-bold'>Price <span>{convertToWholeNumber(formatUnits(userPurchase.price))}ETH</span> </p>
+                  <p className='flex justify-between my-4 font-bold'>Price <span>{formatUnits(userPurchase.price)}Pol</span> </p>
                 </div>
               ) : (
                 <p>Product details not available.</p>

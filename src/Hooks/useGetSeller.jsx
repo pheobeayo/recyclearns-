@@ -44,7 +44,7 @@ const useGetSeller = () => {
             topics: [ethers.id("ProfileCreated(address,string,uint)")],
         };
 
-        wssProvider.getLogs({ ...filter, fromBlock: 59882972 }).then((events) => {
+        wssProvider.getLogs({ ...filter, fromBlock: 14088637 }).then((events) => {
             setCount(events.length + 1);
         });
 

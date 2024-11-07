@@ -1,15 +1,15 @@
 import { createWeb3Modal, defaultConfig } from '@web3modal/ethers/react'
 
-export const SUPPORTED_CHAIN = 4202;
+export const SUPPORTED_CHAIN = 80002;
 
 export const isSupportedChain = (chainId) =>
   Number(chainId) === SUPPORTED_CHAIN;
 
-const LiskSepolia = {
-  chainId: 4202,
-  name: 'lisk',
-  currency: 'ETH',
-  explorerUrl: 'https://sepolia-blockscout.lisk.com',
+const Amoy = {
+  chainId: 80002,
+  name: 'amoy',
+  currency: 'Pol',
+  explorerUrl: 'https://amoy.polygonscan.com/',
   rpcUrl: import.meta.env.VITE_INFURA_RPC
 }
 
@@ -22,8 +22,8 @@ const metadata = {
 
 export const configWeb3Modal = () => createWeb3Modal({
   ethersConfig: defaultConfig({ metadata }),
-  chains: [LiskSepolia],
-  projectId: import.meta.env.VITE_PROJECT_ID,
+  chains: [Amoy],
+  projectId: import.meta.env.VITE_PROJECTID,
   enableAnalytics: false,
   themeVariables: {
     '--w3m-accent': '#427142',
