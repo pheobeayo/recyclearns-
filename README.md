@@ -27,9 +27,9 @@ Enhance User Trust within the platform through user ratings, reviews, and transp
 Mobile App development.
 Implementing the Green Token as incentives for the sellers and buyers to participate in GreenHouse Gas reduction.
 
-## Deployed on aia chain
-RecycleToken  deployed to 
-Recyclearns  deployed to 
+## Deployed on Polygon Amoy
+RecycleToken  deployed to 0x85C787CAf3e2E821ea077C1a3b6621B1CeB4269A
+Recyclearns  deployed to 0xcfc5eb4990A2D976475A616059517c6e1093C67E
 
 
 ## Demo Video:
@@ -43,9 +43,6 @@ Recyclearns  deployed to
 https://www.canva.com/design/DAGQXNFe94A/PIKmMVgIU1j5DlqFpFiAoA/view?utm_content=DAGQXNFe94A&utm_campaign=designshare&utm_medium=link&utm_source=editor
 
 
-## Discord username: 
- 
- @odegha
 
 
 
