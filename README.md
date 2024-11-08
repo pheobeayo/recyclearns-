@@ -28,8 +28,10 @@ Mobile App development.
 Implementing the Green Token as incentives for the sellers and buyers to participate in GreenHouse Gas reduction.
 
 ## Deployed on Polygon Amoy
-RecycleToken  deployed to 0x85C787CAf3e2E821ea077C1a3b6621B1CeB4269A
-Recyclearns  deployed to 0xcfc5eb4990A2D976475A616059517c6e1093C67E
+
+`RecycleToken  deployed to 0x85C787CAf3e2E821ea077C1a3b6621B1CeB4269A`
+
+`Recyclearns  deployed to 0xcfc5eb4990A2D976475A616059517c6e1093C67E`
 
 
 ## Demo Video:
