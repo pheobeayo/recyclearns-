@@ -2897,7 +2897,7 @@ graphemer@^1.4.0:
     "@web3modal/ethers" "^5.0.3"
     ethers "^6.13.1"
     framer-motion "^11.3.17"
-    greenearns "file:../../../Library/Caches/Yarn/v6/npm-greenearns-0.0.0-f196ce3a-3e9c-45e1-b7d1-d3f864b10f4a-1730955092968/node_modules/greenearns"
+    greenearns "file:."
     hamburger-react "^2.5.1"
     react "^18.2.0"
     react-dom "^18.2.0"
@@ -2907,7 +2907,7 @@ graphemer@^1.4.0:
     react-router-dom "^6.23.1"
     react-toast "^1.0.3"
     react-toastify "^10.0.5"
-    recyclearns "file:../../../Library/Caches/Yarn/v6/npm-greenearns-0.0.0-f196ce3a-3e9c-45e1-b7d1-d3f864b10f4a-1730955092968/node_modules/greenearns"
+    recyclearns "file:."
 
 h3@^1.10.2, h3@^1.11.1:
   version "1.12.0"
@@ -3621,9 +3621,9 @@ mz@^2.7.0:
     thenify-all "^1.0.0"
 
 nanoid@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.7.tgz"
-  integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
+  version "3.3.8"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.8.tgz#b1be3030bee36aaff18bacb375e5cce521684baf"
+  integrity sha512-WNLf5Sd8oZxOm+TzppcYk8gVOgP+l58xNy58D0nbUnOxOWRWvlcCV4kUF7ltmI6PsrLl/BgKEyS4mqsGChFN0w==
 
 napi-wasm@^1.1.0:
   version "1.1.0"
@@ -4210,7 +4210,7 @@ real-require@^0.1.0:
     "@web3modal/ethers" "^5.0.3"
     ethers "^6.13.1"
     framer-motion "^11.3.17"
-    greenearns "file:../../../Library/Caches/Yarn/v6/npm-recyclearns-0.0.0-dc13c8df-f7b9-42ca-b536-be821af143a1-1730955092976/node_modules/recyclearns"
+    greenearns "file:."
     hamburger-react "^2.5.1"
     react "^18.2.0"
     react-dom "^18.2.0"
@@ -4220,7 +4220,7 @@ real-require@^0.1.0:
     react-router-dom "^6.23.1"
     react-toast "^1.0.3"
     react-toastify "^10.0.5"
-    recyclearns "file:../../../Library/Caches/Yarn/v6/npm-recyclearns-0.0.0-dc13c8df-f7b9-42ca-b536-be821af143a1-1730955092976/node_modules/recyclearns"
+    recyclearns "file:."
 
 reflect.getprototypeof@^1.0.4:
   version "1.0.6"
